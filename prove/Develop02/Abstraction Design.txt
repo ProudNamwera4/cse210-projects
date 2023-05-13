@@ -1,0 +1,61 @@
+Classes with a description of their attrributes and behaviors.
+
+1. Journal
+
+Attributes:
+
+	* List<Entry>
+
+Behavior:
+
+	*AddEntry
+	*Displaying all the entries
+	*Saving to a file(using file class)
+	*Loading from a file(using file class)
+	
+2. Entry
+
+Attributes:
+
+	* _date
+	* _userChoice
+	* _prompt
+	* _userResponse
+
+Behaviors:
+
+	* Hold data
+	* displaying entries
+	* get the current date
+	* quit program
+	
+3. PromptGenerator
+
+Behavior:
+
+	*generates the prompts
+	
+4. file
+
+Attributes:
+
+	* _filename
+
+Behaviors:
+
+	* reading text file
+	* writing text file
+	
+
+The Journal display method iterates through all
+Entry objects and call the Entry display method.
+The details of how the Entry is displayed would 
+all be contained within the Entry class. The 
+PromptGenerator randomly choses from a set of 
+writing prompts and displays it. A journal entry 
+is written and stored then displayed along with 
+date and prompt associated with that entry. The 
+File class is used for all the file interactions 
+like loading and saving from a file.
+
+	
