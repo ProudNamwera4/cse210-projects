@@ -1,18 +1,22 @@
-public class File{
+
+public class Files{
     private string _filename;
 
-    public File(string filename){
+    public Files(string filename){
         _filename = filename;
     }
 
     public void SetFilename(string filename){
          _filename = filename;
     }
-    public void DeleteFile(){
-
+    public string GetFilename(){
+        return _filename;
     }
-    public void CreateFile(){
-
+    public void DeleteFile(string filename){
+        File.Delete(_filename);
+    }
+    public void CreateFile(string filename){
+        FileStream fs = File.Create(filename);
     }
     
 }

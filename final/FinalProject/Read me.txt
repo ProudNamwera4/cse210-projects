@@ -1,0 +1,14 @@
+To begin using the shopping cart, you start off by providing your first name and then the last name.
+You will be provided with a shopping cart menu from which you can access defferent actions of the program.
+You hav 10 options from the menu, from which you can add your items, remove them or even pay fro your cart 
+just to name a few.
+I have designed the program in a way that guides the user to on how to use the program. For instance
+you can not pay for the total price of your cart without first computing it or providing your banking details.
+
+You can add either a basic item like milk and then it's price. Or add an item you would like in bulk,
+eg. bananas , their price and quantity. bananas-4-2.
+After adding all you need to your cart, you can also save it to a file or view the cart for all it's contents.
+You may also view any previous transactions to keep record of the ammount used in previous payments and the 
+date and time it occured.
+I have also tried to handle a couple of exceptions. However to experience the best version of the program, it would be 
+wise to provide a string where it is needed and not an integer or otherwise.

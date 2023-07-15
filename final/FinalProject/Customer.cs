@@ -14,7 +14,7 @@ public class Customer{
     }
 
     public string GetFullName(){
-        return _name+ ""+ _surname;
+        return _name+ " "+ _surname;
     }
 
     public void DisplayFullName(){
